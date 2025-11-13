@@ -1,0 +1,22 @@
+[
+	{
+		"ingredientPattern": "UF,FF",
+		"ingredients": {
+			"U": { "type": "item", "code": "em:powdered-ore-yellowcake", "quantity": 1 },
+			"F": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "item", "code": "uraniumexpanded:uranium-glass-batch", "quantity": 4 }
+	},
+	{
+		"ingredientPattern": "UF,FF",
+		"ingredients": {
+			"U": { "type": "item", "code": "uraniumexpanded:crushed-uranium", "quantity": 1 },
+			"F": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 }
+		},
+		"width": 2,
+		"height": 2,
+		"output": { "type": "item", "code": "uraniumexpanded:uranium-glass-batch", "quantity": 4 }
+	}
+]

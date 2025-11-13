@@ -1,0 +1,15 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/toolhead/scythehead.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

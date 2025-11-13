@@ -1,0 +1,27 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType/*-uranium",
+    "file": "game:itemtypes/resource/metalbit.json",
+    "side": "Server",
+    "condition": {
+      "when": "EMisPresent",
+      "isValue": "false"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-uranium",
+    "value": {
+      "meltingPoint": 1132,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-uranium"
+      }
+    },
+    "file": "game:itemtypes/resource/metalbit.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "mat": "uraniumexpanded:block/glass/uranium-glass"
+  },
+  "elements": [
+    {
+      "name": "Bowl 1 floor",
+      "from": [5.5, 0.01, 5.5],
+      "to": [10.5, 1.01, 10.5],
+      "renderPass": 3,
+      "faces": {
+        "up": { "texture": "#mat" },
+        "down": { "texture": "#mat" }
+      },
+      "children": [
+        {
+          "name": "N 1",
+          "from": [0.0, 0.01, 0.0],
+          "to": [5.0, 2.0, 1.0],
+          "renderPass": 3,
+          "faces": {
+            "north": { "texture": "#mat" },
+            "south": { "texture": "#mat" },
+            "east": { "texture": "#mat" },
+            "west": { "texture": "#mat" },
+            "up": { "texture": "#mat" }
+          }
+        },
+        {
+          "name": "S 1",
+          "from": [0.0, 0.01, 4.0],
+          "to": [5.0, 2.0, 5.0],
+          "renderPass": 3,
+          "faces": {
+            "north": { "texture": "#mat" },
+            "south": { "texture": "#mat" },
+            "east": { "texture": "#mat" },
+            "west": { "texture": "#mat" },
+            "up": { "texture": "#mat" }
+          }
+        },
+        {
+          "name": "W 1",
+          "from": [0.0, 0.01, 1.0],
+          "to": [1.0, 2.0, 4.0],
+          "renderPass": 3,
+          "faces": {
+            "east": { "texture": "#mat" },
+            "west": { "texture": "#mat" },
+            "up": { "texture": "#mat" }
+          }
+        },
+        {
+          "name": "E 1",
+          "from": [4.0, 0.01, 1.0],
+          "to": [5.0, 2.0, 4.0],
+          "renderPass": 3,
+          "faces": {
+            "east": { "texture": "#mat" },
+            "west": { "texture": "#mat" },
+            "up": { "texture": "#mat" }
+          }
+        }
+      ]
+    }
+  ]
+}

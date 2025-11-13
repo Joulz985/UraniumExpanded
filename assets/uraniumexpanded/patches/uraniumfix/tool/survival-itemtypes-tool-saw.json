@@ -1,0 +1,57 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/*-uranium",
+    "value": {
+			"wood": 5.5,
+			"leaves": 3.6
+    },
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/saw-uranium",
+    "value": 1200,
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/tooltierbytype/saw-uranium",
+    "value": 4,
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/workitem-uranium",
+    "value": {
+      "meltingPoint": 1132,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-uranium"
+      }
+    },
+    "file": "game:itemtypes/resource/workitem.json",
+    "side": "Server"
+  }
+]

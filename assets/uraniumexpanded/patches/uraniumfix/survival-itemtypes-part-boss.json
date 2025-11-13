@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/part/boss.json",
+    "side": "Server"
+  },
+{
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "uranium",
+    "file": "game:recipes/smithing/boss.json",
+    "side": "Server"
+  }
+]

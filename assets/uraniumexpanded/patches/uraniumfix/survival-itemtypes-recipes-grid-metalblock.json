@@ -1,0 +1,8 @@
+[
+  {
+    "op": "remove",
+    "path": "/ingredients/G/skipVariants/4",
+    "file": "game:recipes/grid/metalblock.json",
+    "side": "Server"
+  }
+]

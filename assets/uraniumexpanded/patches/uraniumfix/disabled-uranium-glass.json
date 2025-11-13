@@ -1,0 +1,103 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/handbook",
+        "file": "uraniumexpanded:blocktypes/glass/uranium-glass-block.json",
+        "side": "Server",
+        "value": {
+        "exclude": true
+        },
+        "condition": {
+            "when": "EnableUraniumGlass",
+            "isValue": "false"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/attributes/handbook",
+        "file": "uraniumexpanded:blocktypes/glass/uranium-glassslab-block.json",
+        "side": "Server",
+        "value": {
+        "exclude": true
+        },
+        "condition": {
+            "when": "EnableUraniumGlass",
+            "isValue": "false"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/attributes/handbook",
+        "file": "uraniumexpanded:blocktypes/bowl/bowl.json",
+        "side": "Server",
+        "value": {
+        "exclude": true
+        },
+        "condition": {
+            "when": "EnableUraniumGlass",
+            "isValue": "false"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/attributes/handbook",
+        "file": "uraniumexpanded:blocktypes/bowl/bowl-meal.json",
+        "side": "Server",
+        "value": {
+        "exclude": true
+        },
+        "condition": {
+            "when": "EnableUraniumGlass",
+            "isValue": "false"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/attributes/handbook",
+        "file": "uraniumexpanded:itemtypes/resource/crusheduranium.json",
+        "side": "Server",
+        "value": {
+        "exclude": true
+        },
+        "condition": {
+            "when": "EnableUraniumGlass",
+            "isValue": "false"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/attributes/handbook",
+        "file": "uraniumexpanded:itemtypes/resource/uraniumglassbatch.json",
+        "side": "Server",
+        "value": {
+        "exclude": true
+        },
+        "condition": {
+            "when": "EnableUraniumGlass",
+            "isValue": "false"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/0/enabled",
+        "file": "uraniumexpanded:recipes/grid/uranium-glass-base.json",
+        "side": "Server",
+        "value": false,
+        "condition": {
+            "when": "EnableUraniumGlass",
+            "isValue": "false"
+        }
+    },
+    {
+        "op": "add",
+        "path": "/0/enabled",
+        "file": "uraniumexpanded:recipes/grid/uranium-glass-bowl.json",
+        "side": "Server",
+        "value": false,
+        "condition": {
+            "when": "EnableUraniumGlass",
+            "isValue": "false"
+        }
+    }
+
+]

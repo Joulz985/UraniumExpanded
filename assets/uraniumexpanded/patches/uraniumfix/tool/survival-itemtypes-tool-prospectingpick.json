@@ -1,0 +1,71 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-uranium",
+    "value": {
+			"stone": 4.75,
+			"ore": 4.75,
+			"metal": 4.75
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-uranium",
+    "value": 2.35,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/prospectingpick-uranium",
+    "value": 900,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/tooltierbytype/*-uranium",
+    "value": 4,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

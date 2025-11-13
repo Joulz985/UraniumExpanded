@@ -1,0 +1,28 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/scythe-uranium",
+    "value": 1800,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

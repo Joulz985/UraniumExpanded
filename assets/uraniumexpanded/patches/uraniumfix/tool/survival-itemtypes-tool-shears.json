@@ -1,0 +1,41 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/shears.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/shears-uranium",
+    "value": 3.25,
+    "file": "game:itemtypes/tool/shears.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/shears-uranium",
+    "value": 4500,
+    "file": "game:itemtypes/tool/shears.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

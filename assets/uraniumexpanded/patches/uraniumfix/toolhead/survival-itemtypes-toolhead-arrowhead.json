@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/toolhead/arrowhead.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/shapeByType",
+    "value": {
+      "*-copper": { "base": "item/tool/arrowhead-copper" },
+      "*-tinbronze": { "base": "item/tool/arrowhead-copper" },
+      "*-bismuthbronze": { "base": "item/tool/arrowhead-copper" },
+      "*-blackbronze": { "base": "item/tool/arrowhead-copper" },
+      "*-gold": { "base": "item/tool/arrowhead-copper" },
+      "*-silver": { "base": "item/tool/arrowhead-copper" },
+      "*-iron": { "base": "item/tool/arrowhead-copper" },
+      "*-steel": { "base": "item/tool/arrowhead-copper" },
+      "*-meteoriciron": { "base": "item/tool/arrowhead-copper" },
+      "*-uranium": { "base": "item/tool/arrowhead-copper" },
+      "*": { "base": "item/tool/arrowhead-stone" }
+    },
+    "file": "game:itemtypes/toolhead/arrowhead.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

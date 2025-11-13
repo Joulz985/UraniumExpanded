@@ -1,0 +1,191 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },  
+  {
+    
+    "op": "add",
+    "path": "/shapeByType/*-uranium",
+    "value": { "base": "item/tool/hoe-copper" },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/hoe-uranium",
+    "value": {
+        "soil": 5
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/hoe-uranium",
+    "value": 600,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/hoe-uranium",
+    "value": 2.3,
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/attributes/groundStorageTransformByType",
+    "value": {
+        "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uranium)": {
+          translation: { x: 0, y: 0.04, z: -0.25 },
+          rotation: { x: 23, y: 87, z: -90 },
+          scale: 0.88
+        },			
+        "*": {
+          translation: { x: 0, y: 0.13, z: -0.15 },
+          rotation: { x: 30, y: 87, z: -90 },
+          scale: 0.88
+        }
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/attributes/toolrackTransformByType",
+    "value": {
+			"@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uranium)": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.25, y: 0.6 },
+				scale: 1.25,
+			},
+			"*": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.35, y: 0.6 },
+				scale: 1.25,
+			}
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/texturesByType",
+    "value": {
+      "*-flint": {
+        "material": { "base": "block/stone/{material}" }
+      },
+      "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uranium)": {
+        "material": { base: "block/metal/ingot/{material}" }
+      },
+      "*": {
+        "material": { "base": "block/stone/rock/{material}1" }
+      }
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/guiTransformByType",
+    "value": {
+      "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uranium)": {
+        rotate: false,
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -56, y: -127, z: -180 },
+        origin: { x: 0.35, y: 0, z: 0.55 },
+        scale: 1.43
+      },
+      "*": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -66, y: -130, z: -180 },
+        origin: { x: 0.55, y: 0, z: 0.52 },
+        scale: 1.6
+      }
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/tpHandTransformByType",
+    "value": {
+      "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uranium)": {
+        translation: { x: -1, y: -0.5, z: -0.08 },
+        rotation: { x: 90, y: 0, z: -5 },
+        scale: 1
+      },
+      "*": {
+        translation: { x: -0.8, y: -0.5, z: -0.1 },
+        rotation: { x: 90, y: 0, z: -10 },
+        scale: 1
+      }
+    },
+    "file": "game:itemtypes/tool/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

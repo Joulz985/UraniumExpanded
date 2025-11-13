@@ -1,0 +1,54 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },  
+  {
+    
+    "op": "add",
+    "path": "/tooltierbytype/*-uranium",
+    "value": 4,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/hammer-uranium",
+    "value": 2100,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-uranium",
+    "value": 2.35,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

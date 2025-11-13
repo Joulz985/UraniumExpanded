@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/0/enabled",
+    "file": "uraniumexpanded:recipes/grid/uranium-glass-base.json",
+    "side": "Server",
+    "value": false,
+    "condition": {
+      "when": "EMisPresent",
+      "isValue": "false"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/1/enabled",
+    "file": "uraniumexpanded:recipes/grid/uranium-glass-base.json",
+    "side": "Server",
+    "value": false,
+    "condition": {
+      "when": "EMisPresent",
+      "isValue": "true"
+    }
+  }
+]

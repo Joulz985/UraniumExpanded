@@ -1,0 +1,14 @@
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\bin\Debug\Mods\mod\modinfo.json
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\bin\Debug\Mods\mod\UraniumExpanded.deps.json
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\bin\Debug\Mods\mod\UraniumExpanded.dll
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\bin\Debug\Mods\mod\UraniumExpanded.pdb
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\UraniumExpanded.csproj.AssemblyReference.cache
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\UraniumExpanded.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\UraniumExpanded.AssemblyInfoInputs.cache
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\UraniumExpanded.AssemblyInfo.cs
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\UraniumExpanded.csproj.CoreCompileInputs.cache
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\UraniumExpanded.dll
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\refint\UraniumExpanded.dll
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\UraniumExpanded.pdb
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\ref\UraniumExpanded.dll
+C:\Users\james\source\repos\UraniumExpanded\UraniumExpanded\UraniumExpanded\obj\Debug\UraniumExpanded.sourcelink.json

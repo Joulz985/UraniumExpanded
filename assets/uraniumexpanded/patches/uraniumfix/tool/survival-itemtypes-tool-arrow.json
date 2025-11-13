@@ -1,0 +1,54 @@
+[
+  {
+    
+    "op": "add",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    },
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/arrow.json",
+    "side": "Server"
+  },
+  {
+    
+    "op": "add",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    },
+    "path": "/attributes/damageByType/*-uranium",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/arrow.json",
+    "side": "Server"
+  },
+  {
+    
+    "op": "add",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    },
+    "path": "/attributes/breakChanceOnImpactByType/*-uranium",
+    "value": 0.1,
+    "file": "game:itemtypes/tool/arrow.json",
+    "side": "Server"
+  },
+  {
+    
+    "op": "add",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    },
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:entities/nonliving/projectile/arrow.json",
+    "side": "Server"
+  }
+]

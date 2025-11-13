@@ -1,0 +1,31 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/shapeByType",
+    "value": {
+      "@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|steel|meteoriciron|uranium)": { "base": "item/tool/knife/copper" },
+      "*": { base: "item/tool/knife/stoneblade" }
+    },
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

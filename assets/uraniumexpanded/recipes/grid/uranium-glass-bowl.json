@@ -1,0 +1,22 @@
+[
+	{
+		"ingredientPattern": "GF",
+		"ingredients": {
+			"G": { "type": "block", "code": "uraniumexpanded:uranium-glass-block", "quantity": 1 },
+			"F": { "type": "item", "code": "game:saw-*"}
+		},
+		"width": 2,
+		"height": 1,
+		"output": { "type": "block", "code": "uraniumexpanded:glassslab-uranium-down-free", "quantity": 2 }
+	},
+	{
+		"ingredientPattern": "F,G",
+		"ingredients": {
+			"G": { "type": "block", "code": "uraniumexpanded:glassslab-uranium-down-free", "quantity": 1 },
+			"F": { "type": "item", "code": "game:chisel-*"}
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "block", "code": "uraniumexpanded:uranium-glass-bowl", "quantity": 4 }
+	}
+]

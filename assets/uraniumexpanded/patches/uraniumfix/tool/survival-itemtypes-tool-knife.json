@@ -1,0 +1,100 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/1/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },  
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-uranium",
+    "value": {
+        "plant": 2.2
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/knife-generic-uranium",
+    "value": 1200,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-uranium",
+    "value": 3.75,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/attributes/groundStorageTransformByType",
+    "value": {
+			"@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uranium)": {
+				translation: { x: 0, y: 0.01, z: -0.074 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 1
+			},
+			"knife-khanjar-ruined": {
+				translation: { x: 0, y: 0.065, z: -0.145 },
+				rotation: { x: 26, y: 88, z: -97 },
+				scale: 1
+			},
+			"knife-baselard-ruined": {
+				translation: { x: 0, y: 0.3, z: -0.09 },
+				rotation: { x: 26, y: 90, z: -87 },
+				scale: 1
+			},
+			"knife-stiletto-ruined": {
+				translation: { x: 0, y: 0.17, z: -0.11 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 1
+			},
+			"knife-dagger-ruined": {
+				translation: { x: 0, y: 0.18, z: -0.147 },
+				rotation: { x: 26, y: 88, z: -101 },
+				scale: 1
+			},
+			"*": {
+				translation: { x: 0, y: 0.04, z: -0.104 },
+				rotation: { x: 26, y: 88, z: -87 },
+				scale: 1
+			}
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

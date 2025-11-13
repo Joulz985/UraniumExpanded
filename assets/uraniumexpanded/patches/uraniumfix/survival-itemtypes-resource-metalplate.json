@@ -1,0 +1,35 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/handbook/excludeByType/*-uranium",
+    "file": "game:itemtypes/resource/metalplate.json",
+    "side": "Server",
+    "condition": {
+      "when": "EMisPresent",
+      "isValue": "false"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/metalplate-uranium",
+    "value": {
+      "meltingPoint": 1132,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-uranium",
+        "stacksize": 2
+      }
+    },
+    "file": "game:itemtypes/resource/metalplate.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/materialDensityByType/*-uranium",
+    "value": 18900,
+    "file": "game:itemtypes/resource/metalplate.json",
+    "side": "Server"
+  }
+]

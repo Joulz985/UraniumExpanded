@@ -1,0 +1,77 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/1/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/texturesByType/blade-falx-uranium",
+    "value": { 
+			"falxstring": { base: "game:block/transparent" },
+			"thongs": { base: "game:block/transparent" },			
+			"woodguard": { base: "game:block/transparent" },
+			"handle":  { base: "game:block/wood/debarked/aged" },
+			"falxblade":  { base: "game:block/metal/ingot/uranium" },
+			"cloth":  { base: "game:block/transparent" },
+			"handguard":  { base: "game:block/metal/sheet/uranium1" },
+			"spinerivet":  { base: "game:block/metal/sheet/lead1" },
+			"pips":  { base: "game:block/transparent" }
+		},
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/tooltierbytype/*-uranium",
+    "value": 4,
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/blade-falx-uranium",
+    "value": 1100,
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/blade-falx-uranium",
+    "value": 5.25,
+    "file": "game:itemtypes/tool/blade.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

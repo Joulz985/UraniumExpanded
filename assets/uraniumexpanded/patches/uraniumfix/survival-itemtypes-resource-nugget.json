@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-uranium",
+    "value": {
+      "meltingPoint": 1132,
+      "meltingDuration": 40,
+      "smeltedRatio": 20,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-uranium"
+      }
+    },
+    "file": "game:itemtypes/resource/nugget.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/crushingPropsByType/nugget-uranium",
+    "value": {
+      "crushedStack": { "type": "item", "code": "uraniumexpanded:crushed-uranium" },
+      "quantity": { "avg": 0.33 },
+      "hardnessTier": 3
+    },
+    "file": "game:itemtypes/resource/nugget.json",
+    "side": "Server",
+    "condition": {
+      "when": "EnableUraniumGlass",
+      "isValue": "true"
+    },
+    "whenModLoaded": "em"
+  }
+]

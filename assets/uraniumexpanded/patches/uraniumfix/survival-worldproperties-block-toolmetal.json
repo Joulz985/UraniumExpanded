@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/variants/-",
+    "value": { "code": "uranium" },
+    "file": "game:worldproperties/block/toolmetal.json",
+    "side": "Server"
+  }
+]

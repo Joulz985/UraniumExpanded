@@ -1,0 +1,54 @@
+{
+	"code": "uranium-glass-bowl",
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "Quadrants", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.125, "z2": 1 } } },
+		{ "name": "Unplaceable" },
+		{ "name": "RightClickPickup" }
+	],
+	"class": "BlockMeal",
+	"variantgroups": [
+		{ "code": "type", "states": ["meal"] }
+	],
+	"attributes": {
+		"shelvable": true,
+		"eatenBlock": "uraniumexpanded:uranium-glass-bowl",
+		"handleCookingContainerInteract": true
+	},
+	"entityClass": "Meal",
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"shape": { "base": "uraniumexpanded:block/glass/uranium-glass-bowl" },
+	"blockmaterial": "Glass",
+	"creativeinventory": { "general": [""], "decorative": [""] },
+	"replaceable": 300,
+	"resistance": 0.75,
+	"maxStackSize": 1,
+	"lightAbsorption": 0,
+	"sounds": {
+		"walk": "game:walk/stone"
+	},
+	"textures": {
+		"mat": { "base": "uraniumexpanded:block/glass/uranium-glass" },
+		"floor": { "base": "uraniumexpanded:block/glass/uranium-glass" }
+	},
+	"sideopaque": { "all": false },
+	"sidesolid": { "all": false },
+	"lightHsv": [22, 5, 2],
+	"collisionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"selectionbox": { "x1": 0.3125, "y1": 0, "z1": 0.3125, "x2": 0.6875, "y2": 0.125, "z2": 0.6875 },
+	"guiTransform": {
+		"translation": { "x": 0, "y": 3, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+		"scale": 3
+	},
+	"groundTransform": { "scale": 3.5 },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0.4, "z": 0 },
+		"rotation": { "x": 0, "y": -14, "z": 0 },
+		"scale": 2
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1, "y": -0.44, "z": -0.2 },
+		"rotation": { "x": -80, "y": 15, "z": -103 },
+		"scale": 0.9
+	}
+}

@@ -1,0 +1,427 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/1/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/shapeByType",
+    "value": {
+      "spear-generic-erel": { base: "entity/nonliving/projectile/erel-large-usable" },
+      "spear-scrap-scrap": { base: "item/tool/spear/scrap" },
+      "spear-generic-hacking": { base: "item/tool/spear/hacking" },
+      "spear-generic-ornategold": { base: "item/tool/spear/ornategold" },
+      "spear-generic-ornatesilver": { base: "item/tool/spear/ornatesilver" },
+      "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": { base: "item/tool/spear/stone" },
+      "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|uranium)": { base: "item/tool/spear/copper" },
+      "*-ruined": { base: "item/tool/spear/ruined/{type}" }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/texturesByType",
+    "value": {
+      "spear-generic-erel": { },
+      "spear-scrap-scrap": { },
+      "spear-generic-hacking": { },
+      "spear-generic-flint": { 
+        "material": { base: "block/stone/{material}" } 
+      },
+      "@spear-generic-(chert|granite|andesite|basalt|obsidian|peridotite)": { 
+        "material": { base: "block/stone/rock/{material}1" } 
+      },
+      "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|uranium)": { 
+        "material": { base: "block/metal/ingot/{material}" } 
+      },
+      "spear-generic-ornate*": { },
+      "spear-generic-*": { 
+        "material": { base: "item/tool/material/{material}" } 
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/spear-generic-uranium",
+    "value": 4.25,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/attributes/groundStorageTransformByType",
+    "value": {
+			"spear-generic-hacking": {
+				translation: { x: -0.45, y: 0.35, z: 0.2 },
+				rotation: { x: 16, y: 1, z: 90 },
+				scale: 0.85
+			},
+			"spear-scrap-scrap": {
+				translation: { x: 0, y: 0.25, z: 0.546 },
+				rotation: { x: 16, y: 90, z: 90 },
+				scale: 0.85
+			},
+			"spear-boar-ruined": {
+				translation: { x: 0, y: 0.65, z: 0.61 },
+				rotation: { x: 16, y: 90, z: 90 },
+				scale: 0.85
+			},
+			"spear-voulge-ruined": {
+				translation: { x: 0.24, y: 0.65, z: 0.516 },
+				rotation: { x: 16, y: 130, z: 90 },
+				scale: 0.85
+			},
+			"spear-fork-ruined": {
+				translation: { x: -0.25, y: 0.65, z: 0.11 },
+				rotation: { x: 16, y: 0, z: 90 },
+				scale: 0.85
+			},
+			"spear-ranseur-ruined": {
+				translation: { x: 0, y: 0.93, z: -0.11 },
+				rotation: { x: 16, y: -90, z: 90 },
+				scale: 0.85
+			},
+			"@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|uranium)": {
+				translation: { x: -0.39, y: 0.78, z: 0.235 },
+				rotation: { x: 16, y: 1, z: 90 },
+				scale: 0.85
+			},
+			"spear-generic-ornate*": {
+				translation: { x: -0.39, y: 0.72, z: 0.25 },
+				rotation: { x: 16, y: 1, z: 90 },
+				scale: 0.81
+			},
+			"*": {
+				translation: { x: 0, y: 0.26, z: 0.596 },
+				rotation: { x: 16, y: 90, z: 90 },
+				scale: 0.85
+			}
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attributes/damageByType/*-uranium",
+    "value": 9.5,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attributes/damageTierByType/*-uranium",
+    "value": 4,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/attributes/toolrackTransformByType",
+    "value": {
+			"spear-generic-erel": {
+				translation: { x: 0.55, y: 0.5, z: 0 },
+				rotation: { x: 0, y: 1, z: -1 },
+				scale: 1
+			},
+			"spear-scrap-scrap": {
+				rotation: { x: 0, y: 1, z: -1 },
+				translation: { x: -0.35, y: 0.7, z: 0 },
+				scale: 1.36
+			},
+			"spear-voulge-ruined": {
+				translation: { x: 0.3, y: 0.4, z: 0.7 },
+				rotation: { x: 60, y: 1, z: -1 },
+				scale: 1.37
+			},
+			"spear-fork-ruined": {
+				translation: { x: 0.95, y: -0.27, z: 0.6 },
+				rotation: { x: 125, y: 1, z: -1 },
+				scale: 1.36
+			},
+			"spear-ranseur-ruined": {
+				translation: { x: 0.56, y: 0.05, z: 0.6 },
+				rotation: { x: 89, y: 1, z: -1 },
+				scale: 1.36
+			},
+			"spear-boar-ruined": {
+				translation: { x: 0.45, y: 0.05, z: 0.7 },
+				rotation: { x: 89, y: 1, z: -1 }
+			},
+			"@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|ornategold|hacking|ornatesilver|uranium)": {
+				rotation: { x: 90, y: 1, z: -1 },
+				translation: { x: 0.31, y: 0.04, z: 0.7 },
+				scale: 1.36
+			},
+			"spear-generic-hacking": {
+				rotation: { x: 90, y: 1, z: -1 },
+				translation: { x: -0.19, y: 0.04, z: 0.7 },
+				scale: 1.36
+			},
+			"*": {
+				rotation: { y: 1, z: -1 },
+				translation: { x: -0.23, y: 0.66 },
+				scale: 1.36
+			}
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/spear-generic-uranium",
+    "value": 400,
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/guiTransformByType",
+    "value": {
+      "*-erel": {
+        translation: { x: -0.1, y: 0, z: 0 },
+        rotation: { x: -60, y: 124, z: 6 },
+        origin: { x: 0.39, y: 0, z: 0.5 },
+        scale: 2.26
+      },
+      "spear-generic-hacking": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: 23, y: -180, z: -52 },
+        origin: { x: 1.43, y: 0, z: 0.52 },
+        scale: 2.26
+      },
+      "spear-scrap-scrap": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -60, y: 124, z: 6 },
+        origin: { x: 1.54, y: 0, z: 0.5 },
+        scale: 2.26
+      },
+      "spear-voulge-ruined": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -180, y: 128, z: 38 },
+        origin: { x: 1.29, y: 0, z: 0.5 },
+        scale: 2.26
+      },
+      "spear-ranseur-ruined": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -175, y: 140, z: 38 },
+        origin: { x: 1.19, y: 0, z: 0.6 },
+        scale: 2.26
+      },
+      "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|ornate-gold|ornate-silver|uranium)": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: 33, y: 0, z: -127 },
+        origin: { x: 1.29, y: 0.05, z: 0.52 },
+        scale: 2.26
+      },
+      "*": {
+        translation: { x: 0, y: 0, z: 0 },
+        rotation: { x: -60, y: 124, z: 6 },
+        origin: { x: 1.19, y: 0, z: 0.5 },
+        scale: 2.26
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/tpHandTransformByType",
+    "value": {
+      "spear-scrap-scrap": {
+        translation: { x: -1.14, y: 0.01, z: -0.6 },
+        rotation: { x: -90, y: 0, z: 0 },
+        origin: { x: 0.6, y: 0, z: 0.5 },
+        scale: 0.8
+      },
+      "spear-voulge-ruined": {
+        translation: { x: -1.24, y: 0.03, z: -0.61 },
+        rotation: { x: 0, y: 0, z: 0 },
+        origin: { x: 0.5, y: 0, z: 0.5 },
+        scale: 0.8
+      },
+      "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|hacking|uranium)": {
+        translation: { x: -1.29, y: 0.03, z: -0.57 },
+        rotation: { x: -90, y: 0, z: 0 },
+        origin: { x: 0.6, y: 0, z: 0.5 },
+        scale: 0.8
+      },
+      "@spear-generic-(ornategold|ornatesilver)": {
+        translation: { x: -1.04, y: 0.02, z: -0.57 },
+        rotation: { x: -90, y: 0, z: 0 },
+        origin: { x: 0.5, y: 0, z: 0.5 },
+        scale: 0.8
+      },
+      "*-ruined": {
+        translation: { x: -1.24, y: 0.03, z: -0.61 },
+        rotation: { x: -90, y: 0, z: 0 },
+        origin: { x: 0.5, y: 0, z: 0.5 },
+        scale: 0.8
+      },
+      "*": {
+        translation: { x: -1.29, y: 0.02, z: -0.57 },
+        rotation: { x: -90, y: 0, z: 0 },
+        origin: { x: 0.5, y: 0, z: 0.5 },
+        scale: 0.8
+      }
+    },
+    "file": "game:itemtypes/tool/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+    {
+    
+    "op": "add",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    },
+    "path": "/variantgroups/1/states/-",
+    "value": "uranium",
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server"
+  },
+  {
+    
+    "op": "replace",
+    "path": "/client/shapeByType",
+    "value": {
+			"spear-scrap-scrap": { base: "item/tool/spear/scrap", offsetX: -0.8125 },
+			"spear-generic-copper": { base: "item/tool/spear/copper", offsetX: -0.8125 },
+			"spear-generic-tinbronze": { base: "item/tool/spear/copper", offsetX: -0.8125 },
+			"spear-generic-bismuthbronze": { base: "item/tool/spear/copper", offsetX: -0.8125 },
+			"spear-generic-blackbronze": { base: "item/tool/spear/copper", offsetX: -0.8125 },
+      "spear-generic-uranium": { base: "item/tool/spear/copper", offsetX: -0.8125 },
+			"spear-generic-ornategold": { base: "item/tool/spear/ornategold", offsetX: -0.8125 },
+			"spear-generic-ornatesilver": { base: "item/tool/spear/ornatesilver", offsetX: -0.8125 },
+			"spear-generic-hacking": { base: "item/tool/spear/hacking", offsetX: -0.8125 },
+			"*-ruined": { base: "item/tool/spear/ruined/{type}" },
+			"*": { base: "item/tool/spear/stone", offsetX: -0.8125 }
+		},
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "replace",
+    "path": "/client/texturesByType",
+    "value": {
+			"spear-generic-granite": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+			"spear-generic-chert": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+			"spear-generic-andesite": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+			"spear-generic-basalt": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+			"spear-generic-obsidian": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+			"spear-generic-peridotite": {
+				"material": { base: "block/stone/rock/{material}1" },
+			},
+			"spear-generic-flint": {
+				"material": { base: "block/stone/{material}" },
+			},
+			"spear-generic-ornate*": { },
+			"spear-scrap-scrap": {
+				"rusty-iron": { base: "block/metal/tarnished/rusty-iron" }
+			},
+			"spear-generic-hacking": { },
+			"*-ruined": { },
+      "spear-generic-uranium": {
+				"material": { base: "block/metal/ingot/{material}" },
+			},
+			"*": {
+				"material": { base: "item/tool/material/{material}" },
+			}
+		},
+    "file": "game:entities/nonliving/projectile/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/1/states/-",
+    "value": "uranium",
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/shapeByType/axe-felling-uranium",
+    "value": { "base": "item/tool/axe/iron" },
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/tooltierbytype/*-uranium",
+    "value": 4,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/axe-felling-uranium",
+    "value": {
+			"wood": 9.6,
+			"plant": 5.5,
+			"leaves": 3.6
+		},
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },  
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/axe-felling-uranium",
+    "value": 1200,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/axe-felling-uranium",
+    "value": 3.5,
+    "file": "game:itemtypes/tool/axe-metal.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+]
