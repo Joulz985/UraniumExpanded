@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/chisel.json",
     "side": "Server",
     "condition": {
@@ -15,8 +15,34 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/chisel-uranium",
-    "value": 2800,
+    "path": "/durabilitybytype/chisel-uraniumsteel",
+    "value": 7500,
+    "file": "game:itemtypes/tool/chisel.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/chisel.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/chisel-ferrousuranium",
+    "value": 1800,
     "file": "game:itemtypes/tool/chisel.json",
     "side": "Server",
     "condition": {

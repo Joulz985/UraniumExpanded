@@ -1,0 +1,105 @@
+[
+    {
+        "file": "game:blocktypes/legacy/ingotpile.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "blisteruraniumsteel": { "base": "game:block/metal/ingot/blisteruraniumsteel" }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "blisteruraniumsteel",
+        "file": "game:itemtypes/resource/metalbit.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/*-blisteruraniumsteel",
+        "value": {
+            "meltingPoint": 1602,
+            "meltingDuration": 30,
+            "smeltedRatio": 20,
+            "smeltedStack": {
+                "type": "item",
+                "code": "ingot-blisteruraniumsteel"
+            }
+        },
+        "file": "game:itemtypes/resource/metalbit.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "blisteruraniumsteel",
+        "file": "game:itemtypes/resource/ingot.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/materialDensityByType/*-blisteruraniumsteel",
+        "value": 8000,
+        "file": "game:itemtypes/resource/ingot.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/combustiblePropsByType/ingot-blisteruraniumsteel",
+        "value": {
+            "meltingPoint": 1602,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": { "type": "item", "code": "ingot-blisteruraniumsteel" }
+        },
+        "file": "game:itemtypes/resource/ingot.json",
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/ingot.json",
+        "op": "addmerge",
+        "path": "/attributes/requiresAnvilTierByType",
+        "value": { 	"ingot-blisteruraniumsteel": 4},
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/workitem.json",
+        "op": "addmerge",
+        "path": "/attributesByType/workitem-blisteruraniumsteel",
+        "value": {
+            "requiresAnvilTier": 4
+        },
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/carburizablePropsByType/ingot-ferrousuranium",
+        "value": {
+            "carburizedOutput": { "type": "item", "code": "ingot-blisteruraniumsteel" }
+        },
+        "file": "game:itemtypes/resource/ingot.json",
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/workitem.json",
+        "op": "add",
+        "path": "/combustiblePropsByType/workitem-blisteruraniumsteel",
+        "value": {
+                "meltingPoint": 1602,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltedStack": {
+                    "type": "item",
+                    "code": "ingot-blisteruraniumsteel",
+                    "stacksize": 1
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "blisteruraniumsteel",
+        "file": "game:itemtypes/resource/workitem.json",
+        "side": "Server"
+    }
+]

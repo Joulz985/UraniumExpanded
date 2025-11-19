@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-uraniumsteel",
+    "value": {
+      "meltingPoint": 1502,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-uraniumsteel"
+      }
+    },
+    "file": "game:itemtypes/resource/metalbit.json",
+    "side": "Server"
+  }
+]

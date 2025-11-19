@@ -1,0 +1,25 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/metalplate-uraniumsteel",
+    "value": {
+      "meltingPoint": 1502,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-uraniumsteel",
+        "stacksize": 2
+      }
+    },
+    "file": "game:itemtypes/resource/metalplate.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/materialDensityByType/*-uraniumsteel",
+    "value": 8000,
+    "file": "game:itemtypes/resource/metalplate.json",
+    "side": "Server"
+  }
+]

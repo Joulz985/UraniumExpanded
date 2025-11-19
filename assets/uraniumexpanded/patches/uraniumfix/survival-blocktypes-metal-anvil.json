@@ -1,0 +1,16 @@
+[
+    {
+        "op": "add",
+        "path": "/textures/ferrousuraniumbloom",
+        "value": { "base": "uraniumexpanded:item/resource/ferrousuraniumbloom" },
+        "file": "blocktypes/metal/anvil.json",
+        "side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/textures/blisteruraniumsteel",
+        "value": { "base": "game:block/metal/ingot/blisteruraniumsteel" },
+        "file": "blocktypes/metal/anvil.json",
+        "side": "Server"
+    }
+]

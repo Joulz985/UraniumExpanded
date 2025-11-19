@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/1/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/knife.json",
     "side": "Server",
     "condition": {
@@ -15,9 +15,9 @@
   {
     
     "op": "add",
-    "path": "/miningspeedbytype/knife-generic-uranium",
+    "path": "/miningspeedbytype/knife-generic-uraniumsteel",
     "value": {
-        "plant": 2.2
+        "plant": 2.8
     },
     "file": "game:itemtypes/tool/knife.json",
     "side": "Server",
@@ -30,8 +30,8 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/knife-generic-uranium",
-    "value": 1200,
+    "path": "/durabilitybytype/knife-generic-uraniumsteel",
+    "value": 2550,
     "file": "game:itemtypes/tool/knife.json",
     "side": "Server",
     "condition": {
@@ -43,8 +43,62 @@
   {
     
     "op": "add",
-    "path": "/attackpowerbytype/knife-generic-uranium",
-    "value": 3.75,
+    "path": "/attackpowerbytype/knife-generic-uraniumsteel",
+    "value": 4.5,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/1/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },  
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/knife-generic-ferrousuranium",
+    "value": {
+        "plant": 3.2
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/knife-generic-ferrousuranium",
+    "value": 800,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/knife-generic-ferrousuranium",
+    "value": 3.5,
     "file": "game:itemtypes/tool/knife.json",
     "side": "Server",
     "condition": {
@@ -58,7 +112,7 @@
     "op": "replace",
     "path": "/attributes/groundStorageTransformByType",
     "value": {
-			"@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uranium)": {
+			"@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uraniumsteel|ferrousuranium)": {
 				translation: { x: 0, y: 0.01, z: -0.074 },
 				rotation: { x: 26, y: 88, z: -87 },
 				scale: 1

@@ -1,0 +1,37 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/variants/21/tier",
+    "value": 2,
+    "file": "game:worldproperties/block/metal.json",
+    "side": "Server"
+  },
+  {
+    "file": "game:worldproperties/block/metal.json",
+    "op": "add",
+    "path": "/variants/-",
+    "value": {
+        "code": "ferrousuranium",
+        "meltPoint": 1482,
+        "boilPoint": 2862,
+        "density": 7870,
+        "specificHeatCapacity": 0.450,
+        "elemental": false,
+        "tier": 3
+    }
+  },
+  {
+    "file": "game:worldproperties/block/metal.json",
+    "op": "add",
+    "path": "/variants/-",
+    "value": {
+        "code": "uraniumsteel",
+        "meltPoint": 1502,
+        "boilPoint": 2900,
+        "density": 8000,
+        "specificHeatCapacity": 0.490,
+        "elemental": false,
+        "tier": 4
+    }
+  }
+]

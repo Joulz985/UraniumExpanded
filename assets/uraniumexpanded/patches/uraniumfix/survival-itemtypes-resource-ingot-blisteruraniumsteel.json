@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/ingot-blisteruraniumsteel",
+    "value": {
+      "meltingPoint": 1602,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-blisteruraniumsteel"
+      }
+    },
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/materialDensityByType/*-blisteruraniumsteel",
+    "value": 8000,
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/requiresAnvilTierByType",
+    "value": {"ingot-blisteruraniumsteel": 4},
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  }
+]

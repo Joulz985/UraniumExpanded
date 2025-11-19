@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/shovel.json",
     "side": "Server",
     "condition": {
@@ -15,7 +15,33 @@
   {
     
     "op": "add",
-    "path": "/shapeByType/shovel-uranium",
+    "path": "/shapeByType/shovel-uraniumsteel",
+    "value": { "base": "item/tool/shovel-copper" },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/shapeByType/shovel-ferrousuranium",
     "value": { "base": "item/tool/shovel-copper" },
     "file": "game:itemtypes/tool/shovel.json",
     "side": "Server",
@@ -30,7 +56,7 @@
     "op": "replace",
     "path": "/attributes/groundStorageTransformByType",
     "value": {
-        "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uranium)": {
+        "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uraniumsteel|ferrousuranium)": {
             translation: { x: 0, y: 0.59, z: -0.15 },
             rotation: { x: 13, y: 88, z: -87 },
             scale: 0.88
@@ -52,12 +78,12 @@
   {
     
     "op": "add",
-    "path": "/miningspeedbytype/shovel-uranium",
+    "path": "/miningspeedbytype/shovel-uraniumsteel",
     "value": {
-        "soil": 6.5,
-        "sand": 6.5,
-        "gravel": 4.2,
-        "snow": 4.2
+			"soil": 8,
+			"sand": 8,
+			"gravel": 5.4,
+			"snow": 5.4
     },
     "file": "game:itemtypes/tool/shovel.json",
     "side": "Server",
@@ -70,8 +96,8 @@
   {
     
     "op": "add",
-    "path": "/attackpowerbytype/shovel-uranium",
-    "value": 2.35,
+    "path": "/attackpowerbytype/shovel-uraniumsteel",
+    "value": 3,
     "file": "game:itemtypes/tool/shovel.json",
     "side": "Server",
     "condition": {
@@ -83,8 +109,52 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/shovel-uranium",
-    "value": 1400,
+    "path": "/durabilitybytype/shovel-uraniumsteel",
+    "value": 3300,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/shovel-ferrousuranium",
+    "value": {
+			"soil": 9,
+			"sand": 9,
+			"gravel": 6.4,
+			"snow": 6.4
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-ferrousuranium",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/shovel-ferrousuranium",
+    "value": 1100,
     "file": "game:itemtypes/tool/shovel.json",
     "side": "Server",
     "condition": {
@@ -98,7 +168,7 @@
     "op": "replace",
     "path": "/guiTransformByType",
     "value": {
-        "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uranium)": {
+        "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel|uraniumsteel|ferrousuranium)": {
         "translation": { "x": 0, "y": 0, "z": 0 },
         "rotation": { "x": -113, "y": -147, "z": 139 },
         "origin": { "x": 0.2, "y": 0.7, "z": 0.8 }

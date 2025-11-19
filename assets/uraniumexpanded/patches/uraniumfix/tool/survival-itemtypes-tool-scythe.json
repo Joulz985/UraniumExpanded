@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/scythe.json",
     "side": "Server",
     "condition": {
@@ -15,8 +15,34 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/scythe-uranium",
-    "value": 1800,
+    "path": "/durabilitybytype/scythe-uraniumsteel",
+    "value": 4000,
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/scythe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/scythe-ferrousuranium",
+    "value": 1250,
     "file": "game:itemtypes/tool/scythe.json",
     "side": "Server",
     "condition": {

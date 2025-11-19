@@ -2,26 +2,14 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/19",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/plate.json",
     "side": "Server"
   },
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
-    "file": "game:recipes/smithing/shovel.json",
-    "side": "Server",
-    "condition": {
-        "when": "EnableUraniumTools",
-        "isValue": "true"
-
-    }
-  },
-  {
-    "op": "add",
-    "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/axe.json",
     "side": "Server",
     "condition": {
@@ -33,7 +21,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/chisel.json",
     "side": "Server",
     "condition": {
@@ -45,7 +33,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/hammer.json",
     "side": "Server",
     "condition": {
@@ -57,7 +45,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/shovel.json",
     "side": "Server",
     "condition": {
@@ -69,7 +57,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/cleaver.json",
     "side": "Server",
     "condition": {
@@ -81,7 +69,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/hoe.json",
     "side": "Server",
     "condition": {
@@ -93,7 +81,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/knife.json",
     "side": "Server",
     "condition": {
@@ -105,7 +93,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/pickaxe.json",
     "side": "Server",
     "condition": {
@@ -117,7 +105,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/shears.json",
     "side": "Server",
     "condition": {
@@ -129,7 +117,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/spear.json",
     "side": "Server",
     "condition": {
@@ -141,7 +129,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/scythe.json",
     "side": "Server",
     "condition": {
@@ -154,7 +142,7 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/saw.json",
     "side": "Server",
     "condition": {
@@ -166,7 +154,171 @@
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
+    "file": "game:recipes/smithing/blade-falx.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/19",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/plate.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/shovel.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/axe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/chisel.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/hammer.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/cleaver.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/hoe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/knife.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/pickaxe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/shears.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/spear.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/scythe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  }
+  ,
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/saw.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
     "file": "game:recipes/smithing/blade-falx.json",
     "side": "Server",
     "condition": {

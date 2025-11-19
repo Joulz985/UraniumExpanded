@@ -12,5 +12,19 @@
     "value": "uranium",
     "file": "game:recipes/grid/metalplaque.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/0/ingredients/G/allowedVariants/-",
+    "value": "uraniumsteel",
+    "file": "game:recipes/grid/metalplaque.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/1/ingredients/R/allowedVariants/-",
+    "value": "uraniumsteel",
+    "file": "game:recipes/grid/metalplaque.json",
+    "side": "Server"
   }
 ]

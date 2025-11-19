@@ -3,7 +3,20 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
     "file": "game:itemtypes/toolhead/axehead.json",
     "side": "Server",
     "condition": {
@@ -26,7 +39,8 @@
       "*-iron": { "base": "item/tool/axe/iron" },
       "*-steel": { "base": "item/tool/axe/iron" },
       "*-meteoriciron": { "base": "item/tool/axe/iron" },
-      "*-uranium": { "base": "item/tool/axe/iron" },
+      "*-uraniumsteel": { "base": "item/tool/axe/iron" },
+      "*-ferrousuranium": { "base": "item/tool/axe/iron" },
       "*": { "base": "item/tool/axe/stone" }
     },
     "file": "game:itemtypes/toolhead/axehead.json",
@@ -46,7 +60,7 @@
         "translation": { "x": -0.55, "y": -0.51, "z": -0.11 },
         "rotation": { "x": -105, "y": -16, "z": 85 }
       },
-      "@axehead-(gold|silver|iron|meteoriciron|steel|uranium)": { 
+      "@axehead-(gold|silver|iron|meteoriciron|steel|uraniumsteel|ferrousuranium)": { 
         "translation": { "x": -1.4, "y": -0.9, "z": -0.03 },
         "rotation": { "x": 97, "y": 18, "z": -81 }
       },
@@ -68,7 +82,7 @@
     "op": "replace",
     "path": "/guiTransformByType",
     "value": {
-      "@*-(gold|silver|iron|meteoriciron|steel|uranium)": {
+      "@*-(gold|silver|iron|meteoriciron|steel|uraniumsteel|ferrousuranium)": {
         "translation": { "x": 0, "y": 0, "z": 0 },
         "rotation": { "x": -57, "y": -119, "z": -172 },
         "origin": { "x": 0.97, "y": -0.07, "z": 0.5 },

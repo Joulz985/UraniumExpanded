@@ -2,7 +2,7 @@
   {
     "op": "add",
     "path": "/0/ingredients/T/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/grid/tool/blade.json",
     "side": "Server",
     "condition": {
@@ -14,7 +14,7 @@
   {
     "op": "add",
     "path": "/0/ingredients/T/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/grid/tool/axe.json",
     "side": "Server",
     "condition": {
@@ -26,7 +26,7 @@
   {
     "op": "add",
     "path": "/ingredients/T/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/grid/tool/spear.json",
     "side": "Server",
     "condition": {
@@ -37,16 +37,26 @@
   },
   {
     "op": "add",
-    "path": "/attributes/durabilityGains/metal/uranium",
+    "path": "/attributes/durabilityGains/metal/uraniumsteel",
     "value": 90,
     "file": "game:itemtypes/tool/shield.json",
-    "side": "Server"
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
   },
   {
     "op": "add",
     "path": "/attributes/variantGroups/metal/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/shield.json",
-    "side": "Server"
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
   }
 ]

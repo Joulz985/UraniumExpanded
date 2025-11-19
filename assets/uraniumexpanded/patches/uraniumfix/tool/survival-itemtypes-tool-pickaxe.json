@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/pickaxe.json",
     "side": "Server",
     "condition": {
@@ -15,14 +15,14 @@
   {
     
     "op": "add",
-    "path": "/miningspeedbytype/pickaxe-uranium",
-    "value": {
-			"ceramic": 3,
-			"stone": 8,
-			"ore": 8,
-			"metal": 8,
-			"ice": 3.75
-    },
+    "path": "/miningspeedbytype/pickaxe-uraniumsteel",
+		"value": {
+			"ceramic": 3.5,
+			"stone": 10,
+			"ore": 10,
+			"metal": 10,
+			"ice": 5
+		},
     "file": "game:itemtypes/tool/pickaxe.json",
     "side": "Server",
     "condition": {
@@ -34,8 +34,8 @@
   {
     
     "op": "add",
-    "path": "/attackpowerbytype/shovel-uranium",
-    "value": 2.5,
+    "path": "/attackpowerbytype/shovel-uraniumsteel",
+    "value": 2.8,
     "file": "game:itemtypes/tool/pickaxe.json",
     "side": "Server",
     "condition": {
@@ -47,8 +47,8 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/pickaxe-uranium",
-    "value": 1300,
+    "path": "/durabilitybytype/pickaxe-uraniumsteel",
+    "value": 3000,
     "file": "game:itemtypes/tool/pickaxe.json",
     "side": "Server",
     "condition": {
@@ -60,7 +60,79 @@
   {
     
     "op": "add",
-    "path": "/tooltierbytype/*-uranium",
+    "path": "/tooltierbytype/*-uraniumsteel",
+    "value": 5,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/pickaxe-ferrousuranium",
+		"value": {
+			"ceramic": 4,
+			"stone": 12,
+			"ore": 12,
+			"metal": 12,
+			"ice": 7
+		},
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/shovel-ferrousuranium",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/pickaxe-ferrousuranium",
+    "value": 900,
+    "file": "game:itemtypes/tool/pickaxe.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/tooltierbytype/*-ferrousuranium",
     "value": 4,
     "file": "game:itemtypes/tool/pickaxe.json",
     "side": "Server",

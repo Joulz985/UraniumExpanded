@@ -19,7 +19,7 @@
 		{ name: "RightClickPickup" } 
 	],
 	variantgroups: [
-		{ code:"position", states: ["up", "down"], loadFromProperties: "abstract/horizontalorientation" }
+		{ code:"position", states: ["up", "down"], loadFromProperties: "game:abstract/horizontalorientation" }
 	],
 	shapebytype: {
 		"lantern-up": { base: "game:block/metal/lantern/ground" },
@@ -31,13 +31,16 @@
 	},
 	// Must declare textures so they get added to the block texture atlas
 	textures: {
-		"uranium": { base: "uraniumexpanded:block/metal/lantern/uranium" },
+		"uranium": { base: "game:block/metal/lantern/uranium" },
+		"ferrousuranium": { base: "game:block/metal/lantern/ferrousuranium" },
+		"uraniumsteel": { base: "game:block/metal/lantern/uraniumsteel" },
 		"silver": { base: "game:block/metal/lantern/silver" },
 		"gold": { base: "game:block/metal/lantern/gold" },
 		"electrum": { base: "game:block/metal/lantern/electrum" },
+		"deco-uranium": { base: "game:block/metal/lantern/uranium-deco" },
+		"deco-ferrousuranium": { base: "game:block/metal/lantern/ferrousuranium-deco" },
+		"deco-uraniumsteel": { base: "game:block/metal/lantern/uraniumsteel-deco" }
 
-
-		"deco-uranium": { base: "uraniumexpanded:block/metal/lantern/uranium-deco" }
 	},
 	heldRightTpIdleAnimation: "holdinglanternrighthand",
 	heldLeftTpIdleAnimation: "holdinglanternlefthand",
@@ -72,7 +75,10 @@
 			{
 				tabs: [ "general", "decorative" ],
 				stacks: [
-					{ type: "block", code: "lantern-up", attributes: { material: "uranium", lining: "plain", glass: "quartz" } }
+					{ type: "block", code: "lantern-up", attributes: { material: "uranium", lining: "plain", glass: "quartz" } },
+					{ type: "block", code: "lantern-up", attributes: { material: "ferrousuranium", lining: "plain", glass: "quartz" } },
+					{ type: "block", code: "lantern-up", attributes: { material: "uraniumsteel", lining: "plain", glass: "quartz" } }
+
 				]
 			}
 		]

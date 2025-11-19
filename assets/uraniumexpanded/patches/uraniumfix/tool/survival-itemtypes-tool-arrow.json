@@ -8,7 +8,7 @@
 
     },
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/arrow.json",
     "side": "Server"
   },
@@ -20,8 +20,8 @@
         "isValue": "true"
 
     },
-    "path": "/attributes/damageByType/*-uranium",
-    "value": 2.25,
+    "path": "/attributes/damageByType/*-uraniumsteel",
+    "value": 2.7,
     "file": "game:itemtypes/tool/arrow.json",
     "side": "Server"
   },
@@ -33,7 +33,59 @@
         "isValue": "true"
 
     },
-    "path": "/attributes/breakChanceOnImpactByType/*-uranium",
+    "path": "/attributes/breakChanceOnImpactByType/*-uraniumsteel",
+    "value": 0.04,
+    "file": "game:itemtypes/tool/arrow.json",
+    "side": "Server"
+  },
+  {
+    
+    "op": "add",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    },
+    "path": "/variantgroups/0/states/-",
+    "value": "uraniumsteel",
+    "file": "game:entities/nonliving/projectile/arrow.json",
+    "side": "Server"
+  },
+  {
+    
+    "op": "add",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    },
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/arrow.json",
+    "side": "Server"
+  },
+  {
+    
+    "op": "add",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    },
+    "path": "/attributes/damageByType/*-ferrousuranium",
+    "value": 2,
+    "file": "game:itemtypes/tool/arrow.json",
+    "side": "Server"
+  },
+  {
+    
+    "op": "add",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    },
+    "path": "/attributes/breakChanceOnImpactByType/*-ferrousuranium",
     "value": 0.1,
     "file": "game:itemtypes/tool/arrow.json",
     "side": "Server"
@@ -47,7 +99,7 @@
 
     },
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "ferrousuranium",
     "file": "game:entities/nonliving/projectile/arrow.json",
     "side": "Server"
   }

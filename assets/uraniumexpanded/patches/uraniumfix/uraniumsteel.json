@@ -1,0 +1,79 @@
+[
+    {
+        "file": "game:blocktypes/legacy/ingotpile.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "uraniumsteel": { "base": "game:block/metal/ingot/uraniumsteel" }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metalplate.json",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-uraniumsteel",
+        "value": 8000
+    },
+    {
+        "file": "game:itemtypes/resource/metalscale.json",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/metalscale-uraniumsteel",
+        "value": {
+            "meltingPoint": 1132,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": {
+                "type": "item",
+                "code": "ingot-uraniumsteel",
+                "stacksize": 1
+            }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metalscale.json",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-uraniumsteel",
+        "value": 8000
+    },
+    {
+        "file": "game:itemtypes/resource/metalchain.json",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/metalchain-uraniumsteel",
+        "value": {
+            "meltingPoint": 1132,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": {
+                "type": "item",
+                "code": "ingot-uraniumsteel",
+                "stacksize": 2
+            }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metalchain.json",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-uraniumsteel",
+        "value": 8000
+    },
+    {
+        "file": "game:itemtypes/resource/metallamellae.json",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType/metallamellae-uraniumsteel",
+        "value": {
+            "meltingPoint": 1132,
+            "meltingDuration": 30,
+            "smeltedRatio": 1,
+            "smeltedStack": {
+                "type": "item",
+                "code": "ingot-uraniumsteel",
+                "stacksize": 1
+            }
+        }
+    },
+    {
+        "file": "game:itemtypes/resource/metallamellae.json",
+        "op": "addmerge",
+        "path": "/materialDensityByType/*-uraniumsteel",
+        "value": 8000
+    }
+]

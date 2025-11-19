@@ -1,9 +1,21 @@
 [
   {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "uraniumsteel",
+    "file": "game:itemtypes/toolhead/scythehead.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "ferrousuranium",
     "file": "game:itemtypes/toolhead/scythehead.json",
     "side": "Server",
     "condition": {

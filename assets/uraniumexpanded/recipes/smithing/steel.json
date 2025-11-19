@@ -1,0 +1,14 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["blisteruraniumsteel"] },
+	name: "blistersteel",
+	pattern: [[
+		"#######",
+		"#######",
+		"#######",
+	],[
+		"#######",
+		"#######",
+		"#######",
+	]],
+	output: { type: "item", code: "game:ingot-uraniumsteel"  }
+}

@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/shears.json",
     "side": "Server",
     "condition": {
@@ -15,8 +15,8 @@
   {
     
     "op": "add",
-    "path": "/attackpowerbytype/shears-uranium",
-    "value": 3.25,
+    "path": "/attackpowerbytype/shears-uraniumsteel",
+    "value": 3.8,
     "file": "game:itemtypes/tool/shears.json",
     "side": "Server",
     "condition": {
@@ -28,8 +28,47 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/shears-uranium",
-    "value": 4500,
+    "path": "/durabilitybytype/shears-uraniumsteel",
+    "value": 10500,
+    "file": "game:itemtypes/tool/shears.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/shears.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/shears-ferrousuranium",
+    "value": 3,
+    "file": "game:itemtypes/tool/shears.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/shears-ferrousuranium",
+    "value": 3500,
     "file": "game:itemtypes/tool/shears.json",
     "side": "Server",
     "condition": {

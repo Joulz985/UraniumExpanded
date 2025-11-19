@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/saw.json",
     "side": "Server",
     "condition": {
@@ -15,10 +15,10 @@
   {
     
     "op": "add",
-    "path": "/miningspeedbytype/*-uranium",
+    "path": "/miningspeedbytype/*-uraniumsteel",
     "value": {
-			"wood": 5.5,
-			"leaves": 3.6
+			"wood": 7,
+			"leaves": 5
     },
     "file": "game:itemtypes/tool/saw.json",
     "side": "Server",
@@ -31,8 +31,8 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/saw-uranium",
-    "value": 1200,
+    "path": "/durabilitybytype/saw-uraniumsteel",
+    "value": 2550,
     "file": "game:itemtypes/tool/saw.json",
     "side": "Server",
     "condition": {
@@ -44,7 +44,62 @@
   {
     
     "op": "add",
-    "path": "/tooltierbytype/saw-uranium",
+    "path": "/tooltierbytype/saw-uraniumsteel",
+    "value": 5,
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/*-ferrousuranium",
+    "value": {
+			"wood": 9,
+			"leaves": 7
+    },
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/saw-ferrousuranium",
+    "value": 800,
+    "file": "game:itemtypes/tool/saw.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/tooltierbytype/saw-ferrousuranium",
     "value": 4,
     "file": "game:itemtypes/tool/saw.json",
     "side": "Server",

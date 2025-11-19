@@ -3,7 +3,20 @@
     
     "op": "add",
     "path": "/variantgroups/1/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
+    "file": "game:itemtypes/toolhead/bladehead.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/1/states/-",
+    "value": "ferrousuranium",
     "file": "game:itemtypes/toolhead/bladehead.json",
     "side": "Server",
     "condition": {
@@ -17,7 +30,8 @@
     "op": "replace",
     "path": "/shapeByType",
     "value": {
-      "bladehead-falx-uranium": { base: "uraniumexpanded:item/tool/blade/falx/uranium" },
+      "bladehead-falx-uraniumsteel": { base: "uraniumexpanded:item/tool/blade/falx/uraniumsteel" },
+      "bladehead-falx-ferrousuranium": { base: "uraniumexpanded:item/tool/blade/falx/ferrousuranium" },
       "bladehead-falx-*": { base: "item/tool/blade/falx/{metal}" },
       "bladehead-short-iron": { base: "item/tool/blade/blackguard" }
     },

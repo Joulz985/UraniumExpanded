@@ -13,5 +13,14 @@
     },
     "file": "game:itemtypes/resource/workitem.json",
     "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/workitem-uranium",
+    "value": {
+      "requiresAnvilTier": 2
+    },
+    "file": "game:itemtypes/resource/workitem.json",
+    "side": "Server"
   }
 ]

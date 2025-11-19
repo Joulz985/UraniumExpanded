@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/hammer.json",
     "side": "Server",
     "condition": {
@@ -15,7 +15,59 @@
   {
     
     "op": "add",
-    "path": "/tooltierbytype/*-uranium",
+    "path": "/tooltierbytype/*-uraniumsteel",
+    "value": 5,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/hammer-uraniumsteel",
+    "value": 5000,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/hammer-uraniumsteel",
+    "value": 3,
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },  
+  {
+    
+    "op": "add",
+    "path": "/tooltierbytype/*-ferrousuranium",
     "value": 4,
     "file": "game:itemtypes/tool/hammer.json",
     "side": "Server",
@@ -28,8 +80,8 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/hammer-uranium",
-    "value": 2100,
+    "path": "/durabilitybytype/hammer-ferrousuranium",
+    "value": 1700,
     "file": "game:itemtypes/tool/hammer.json",
     "side": "Server",
     "condition": {
@@ -41,8 +93,8 @@
   {
     
     "op": "add",
-    "path": "/attackpowerbytype/hammer-uranium",
-    "value": 2.35,
+    "path": "/attackpowerbytype/hammer-ferrousuranium",
+    "value": 2.5,
     "file": "game:itemtypes/tool/hammer.json",
     "side": "Server",
     "condition": {

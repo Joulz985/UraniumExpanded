@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/cleaver.json",
     "side": "Server",
     "condition": {
@@ -15,8 +15,8 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/cleaver-uranium",
-    "value": 950,
+    "path": "/durabilitybytype/cleaver-uraniumsteel",
+    "value": 2400,
     "file": "game:itemtypes/tool/cleaver.json",
     "side": "Server",
     "condition": {
@@ -28,8 +28,47 @@
   {
     
     "op": "add",
-    "path": "/attackpowerbytype/cleaver-uranium",
-    "value": 2.6,
+    "path": "/attackpowerbytype/cleaver-uraniumsteel",
+    "value": 3,
+    "file": "game:itemtypes/tool/cleaver.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/cleaver.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/cleaver-ferrousuranium",
+    "value": 700,
+    "file": "game:itemtypes/tool/cleaver.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/cleaver-ferrousuranium",
+    "value": 2.5,
     "file": "game:itemtypes/tool/cleaver.json",
     "side": "Server",
     "condition": {

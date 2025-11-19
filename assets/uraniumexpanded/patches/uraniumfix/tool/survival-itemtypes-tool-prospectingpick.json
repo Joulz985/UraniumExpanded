@@ -3,7 +3,7 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/tool/prospectingpick.json",
     "side": "Server",
     "condition": {
@@ -15,11 +15,10 @@
   {
     
     "op": "add",
-    "path": "/miningspeedbytype/prospectingpick-uranium",
+    "path": "/miningspeedbytype/prospectingpick-uraniumsteel",
     "value": {
-			"stone": 4.75,
-			"ore": 4.75,
-			"metal": 4.75
+			"stone": 6.5,
+			"ore": 6.5
     },
     "file": "game:itemtypes/tool/prospectingpick.json",
     "side": "Server",
@@ -32,8 +31,8 @@
   {
     
     "op": "add",
-    "path": "/attackpowerbytype/prospectingpick-uranium",
-    "value": 2.35,
+    "path": "/attackpowerbytype/prospectingpick-uraniumsteel",
+    "value": 3,
     "file": "game:itemtypes/tool/prospectingpick.json",
     "side": "Server",
     "condition": {
@@ -45,8 +44,8 @@
   {
     
     "op": "add",
-    "path": "/durabilitybytype/prospectingpick-uranium",
-    "value": 900,
+    "path": "/durabilitybytype/prospectingpick-uraniumsteel",
+    "value": 1925,
     "file": "game:itemtypes/tool/prospectingpick.json",
     "side": "Server",
     "condition": {
@@ -58,7 +57,75 @@
   {
     
     "op": "add",
-    "path": "/tooltierbytype/*-uranium",
+    "path": "/tooltierbytype/*-uraniumsteel",
+    "value": 5,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/miningspeedbytype/prospectingpick-ferrousuranium",
+    "value": {
+			"stone": 8.5,
+			"ore": 8.5
+    },
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/attackpowerbytype/prospectingpick-ferrousuranium",
+    "value": 2.25,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/durabilitybytype/prospectingpick-ferrousuranium",
+    "value": 550,
+    "file": "game:itemtypes/tool/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/tooltierbytype/*-ferrousuranium",
     "value": 4,
     "file": "game:itemtypes/tool/prospectingpick.json",
     "side": "Server",

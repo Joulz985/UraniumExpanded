@@ -2,7 +2,19 @@
   {
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
+    "file": "game:itemtypes/toolhead/arrowhead.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
     "file": "game:itemtypes/toolhead/arrowhead.json",
     "side": "Server",
     "condition": {
@@ -24,7 +36,8 @@
       "*-iron": { "base": "item/tool/arrowhead-copper" },
       "*-steel": { "base": "item/tool/arrowhead-copper" },
       "*-meteoriciron": { "base": "item/tool/arrowhead-copper" },
-      "*-uranium": { "base": "item/tool/arrowhead-copper" },
+      "*-uraniumsteel": { "base": "item/tool/arrowhead-copper" },
+      "*-ferrousuranium": { "base": "item/tool/arrowhead-copper" },
       "*": { "base": "item/tool/arrowhead-stone" }
     },
     "file": "game:itemtypes/toolhead/arrowhead.json",

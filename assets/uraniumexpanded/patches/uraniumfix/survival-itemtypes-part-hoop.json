@@ -2,14 +2,14 @@
   {
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:itemtypes/part/hoop.json",
     "side": "Server"
   },
-{
+  {
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
     "file": "game:recipes/smithing/hoop.json",
     "side": "Server"
   }

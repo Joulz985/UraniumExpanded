@@ -1,0 +1,92 @@
+[
+    {
+        "file": "game:blocktypes/legacy/ingotpile.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "ferrousuranium": { "base": "game:block/metal/ingot/ferrousuranium" }
+        },
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/metalscale.json",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType",
+        "value": {
+            "metalscale-ferrousuranium": {
+                "meltingPoint": 1482,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltedStack": {
+                    "type": "item",
+                    "code": "ingot-ferrousuranium",
+                    "stacksize": 1
+                }
+            }
+        },
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/metalscale.json",
+        "op": "addmerge",
+        "path": "/materialDensityByType",
+        "value": {
+            "*-ferrousuranium": 7870
+        },
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/metalchain.json",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType",
+        "value": {
+            "metalchain-ferrousuranium": {
+                "meltingPoint": 1482,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltedStack": {
+                    "type": "item",
+                    "code": "ingot-ferrousuranium",
+                    "stacksize": 2
+                }
+            }
+        },
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/metalchain.json",
+        "op": "addmerge",
+        "path": "/materialDensityByType",
+        "value": {
+            "*-ferrousuranium": 7870
+        },
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/metallamellae.json",
+        "op": "addmerge",
+        "path": "/combustiblePropsByType",
+        "value": {
+            "metallamellae-ferrousuranium": {
+                "meltingPoint": 1482,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltedStack": {
+                    "type": "item",
+                    "code": "ingot-ferrousuranium",
+                    "stacksize": 1
+                }
+            }
+        },
+        "side": "Server"
+    },
+    {
+        "file": "game:itemtypes/resource/metallamellae.json",
+        "op": "addmerge",
+        "path": "/materialDensityByType",
+        "value": {
+            "*-ferrousuranium": 7870
+        },
+        "side": "Server"
+    }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-ferrousuranium",
+    "value": {
+      "meltingPoint": 1482,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-ferrousuranium"
+      }
+    },
+    "file": "game:itemtypes/resource/metalbit.json",
+    "side": "Server"
+  }
+]

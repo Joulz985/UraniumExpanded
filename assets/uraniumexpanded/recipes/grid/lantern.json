@@ -163,5 +163,335 @@
 				glass: "plain"
 			}
 		}
+	},
+{
+		ingredientPattern: "QCQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-ferrousuranium"},
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "ferrousuranium",
+				lining: "plain",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-ferrousuranium"},
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "ferrousuranium",
+				lining: "gold",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-ferrousuranium"},
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "ferrousuranium",
+				lining: "silver",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-ferrousuranium"},
+			"L": { type: "item", code: "game:metalplate-electrum" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "ferrousuranium",
+				lining: "electrum",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-ferrousuranium"},
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "ferrousuranium",
+				lining: "plain",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-ferrousuranium"},
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "ferrousuranium",
+				lining: "gold",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-ferrousuranium"},
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "ferrousuranium",
+				lining: "silver",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-ferrousuranium"},
+			"L": { type: "item", code: "game:metalplate-electrum" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "ferrousuranium",
+				lining: "electrum",
+				glass: "plain"
+			}
+		}
+	},
+{
+		ingredientPattern: "QCQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-uraniumsteel"},
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "uraniumsteel",
+				lining: "plain",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-uraniumsteel"},
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "uraniumsteel",
+				lining: "gold",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-uraniumsteel"},
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "uraniumsteel",
+				lining: "silver",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-uraniumsteel"},
+			"L": { type: "item", code: "game:metalplate-electrum" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "uraniumsteel",
+				lining: "electrum",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-uraniumsteel"},
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "uraniumsteel",
+				lining: "plain",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-uraniumsteel"},
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "uraniumsteel",
+				lining: "gold",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-uraniumsteel"},
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "uraniumsteel",
+				lining: "silver",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-uraniumsteel"},
+			"L": { type: "item", code: "game:metalplate-electrum" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "uraniumsteel",
+				lining: "electrum",
+				glass: "plain"
+			}
+		}
 	}
 ]

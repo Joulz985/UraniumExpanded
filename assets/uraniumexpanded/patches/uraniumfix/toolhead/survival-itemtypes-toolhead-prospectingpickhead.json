@@ -3,7 +3,20 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
+    "file": "game:itemtypes/toolhead/prospectingpickhead.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
     "file": "game:itemtypes/toolhead/prospectingpickhead.json",
     "side": "Server",
     "condition": {

@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/ingot-ferrousuranium",
+    "value": {
+      "meltingPoint": 1482,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-ferrousuranium"
+      }
+    },
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/materialDensityByType/*-ferrousuranium",
+    "value": 7870,
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/requiresAnvilTierByType",
+    "value": {"ingot-ferrousuranium": 3},
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  }
+]

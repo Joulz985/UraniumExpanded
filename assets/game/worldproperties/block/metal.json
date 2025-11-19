@@ -1,0 +1,23 @@
+{
+	code: "metal",
+	variants: [		
+		{             
+            "code": "uraniumsteel",
+            "meltPoint": 1502,
+            "boilPoint": 2900,
+            "density": 8000,
+            "specificHeatCapacity": 0.490,
+            "elemental": false,
+            "tier": 4
+		},
+		{
+            "code": "ferrousuranium",
+            "meltPoint": 1538,
+            "boilPoint": 2862,
+            "density": 7870,
+            "specificHeatCapacity": 0.450,
+            "elemental": false,
+            "tier": 3
+		}
+	]
+}

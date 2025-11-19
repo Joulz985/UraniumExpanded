@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/ingot-uraniumsteel",
+    "value": {
+      "meltingPoint": 1502,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-uraniumsteel"
+      }
+    },
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/materialDensityByType/*-uraniumsteel",
+    "value": 8000,
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/requiresAnvilTierByType",
+    "value": {"ingot-uraniumsteel": 4},
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  }
+]

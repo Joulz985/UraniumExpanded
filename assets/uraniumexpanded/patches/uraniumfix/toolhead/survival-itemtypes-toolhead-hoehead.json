@@ -3,7 +3,20 @@
     
     "op": "add",
     "path": "/variantgroups/0/states/-",
-    "value": "uranium",
+    "value": "uraniumsteel",
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "ferrousuranium",
     "file": "game:itemtypes/toolhead/hoehead.json",
     "side": "Server",
     "condition": {
@@ -26,7 +39,8 @@
       "*-iron": { "base": "item/tool/hoe-copper" },
       "*-steel": { "base": "item/tool/hoe-copper" },
       "*-meteoriciron": { "base": "item/tool/hoe-copper" },
-      "*-uranium": { "base": "item/tool/hoe-copper" },
+      "*-uraniumsteel": { "base": "item/tool/hoe-copper" },
+      "*-ferrousuranium": { "base": "item/tool/hoe-copper" },
       "*": { "base": "item/tool/hoe-stone" }
     },
     "file": "game:itemtypes/toolhead/hoehead.json",
@@ -42,7 +56,7 @@
     "op": "replace",
     "path": "/guiTransformByType",
     "value": {
-      "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel|uranium)": {
+      "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel|uraniumsteel|ferrousuranium)": {
         rotate: false,
         translation: { x: 0, y: 0, z: 0 },
         rotation: { x: -52, y: -131, z: -180 },

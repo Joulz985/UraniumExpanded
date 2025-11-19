@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-blisteruraniumsteel",
+    "value": {
+      "meltingPoint": 1602,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": {
+        "type": "item",
+        "code": "ingot-blisteruraniumsteel"
+      }
+    },
+    "file": "game:itemtypes/resource/metalbit.json",
+    "side": "Server"
+  }
+]

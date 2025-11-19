@@ -1,0 +1,15 @@
+{
+	ingredient: { type: "item", code: "uraniumexpanded:ferrousuraniumbloom" },
+	pattern: [[
+		"#######",
+		"#######",
+		"#######",
+	],
+	[
+		"#######",
+		"#######",
+		"#######",
+	]],
+	name: "Iron ingot",
+	output: { type: "item", code: "game:ingot-ferrousuranium"  }
+}
