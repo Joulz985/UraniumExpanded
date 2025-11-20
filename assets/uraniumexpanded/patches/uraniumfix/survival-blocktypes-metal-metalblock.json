@@ -1,0 +1,26 @@
+[
+  {
+    "file": "game:blocktypes/metal/metalblock.json",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-new-plain-uraniumsteel"
+  },
+  {
+    "file": "game:blocktypes/metal/metalblock.json",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-new-plain-ferrousuranium"
+  },
+  {
+    "file": "game:blocktypes/metal/metalblock.json",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-corroded-*-uraniumsteel"
+  },
+  {
+    "file": "game:blocktypes/metal/metalblock.json",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-corroded-*-ferrousuranium"
+  }
+]
