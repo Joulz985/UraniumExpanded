@@ -1,0 +1,234 @@
+[   
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/axehead-uraniumsteel",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/axehead-ferrousuranium",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/hoehead-uraniumsteel",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/hoehead-ferrousuranium",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/knifeblade-uraniumsteel",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/knifeblade-ferrousuranium",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/tool/knifeblade.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/knife-generic-uraniumsteel",
+    "value": {
+		"material": {
+            "base": "block/metal/ingot/{material}"
+         }
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/knife-generic-ferrousuranium",
+    "value": {
+        "material": {
+            "base": "block/metal/ingot/{material}"
+         }
+    },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/shapeByType/knife-generic-uraniumsteel",
+      "value": {
+         "base": "item/tool/knife/copper"
+      },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/shapeByType/knife-generic-ferrousuranium",
+      "value": {
+         "base": "item/tool/knife/copper"
+      },
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/shovelhead-uraniumsteel",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/shovelhead-ferrousuranium",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/shovel-uraniumsteel",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" }
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/shovel-ferrousuranium",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" }
+    },
+    "file": "game:itemtypes/tool/shovel.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/spearhead-uraniumsteel",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
+  { 
+    "op": "addmerge",
+    "path": "/texturesByType/spearhead-ferrousuranium",
+    "value": {
+			"material": { base: "block/metal/ingot/{material}" },
+			"string": { base: "block/transparent" },
+			"handle": { base: "block/transparent" }
+    },
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "side": "Server",
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  }
+]

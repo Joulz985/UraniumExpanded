@@ -8,5 +8,15 @@
 		"width": 3,
 		"height": 2,
 		"output": { "type": "item", "code": "uraniumexpanded:ferrousuraniumblend", "quantity": 5 }
+	},
+	{
+		"ingredientPattern": "UFF,FF_",
+		"ingredients": {
+			"U": { "type": "item", "code": "em:crushed-metal-uranium", "quantity": 1 },
+			"F": { "type": "item", "code": "game:crushed-iron", "quantity": 1 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "item", "code": "uraniumexpanded:ferrousuraniumblend", "quantity": 5 }
 	}
 ]

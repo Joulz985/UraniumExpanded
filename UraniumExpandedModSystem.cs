@@ -38,11 +38,15 @@
                 this.Mod.Logger.Event($"EnableUraniumGlass set to {ModConfig.Loaded.EnableUraniumGlass} on server");
             }
 
-                bool emLoaded = api.ModLoader.GetMod("em") != null;
-                // We want our patch to run only when EM is NOT present:
-                api.World.Config.SetBool("EMisPresent", emLoaded);
+            bool emLoaded = api.ModLoader.GetMod("em") != null;
+            api.World.Config.SetBool("EMisPresent", emLoaded);
 
-                api.Logger.Notification($"[UraniumExpanded] em loaded = {emLoaded}. EMisPresent = {emLoaded}");
+            //this.Mod.Logger.Event($"[UraniumExpanded] em loaded = {emLoaded}. EMisPresent = {emLoaded}");
+
+            bool gaLoaded = api.ModLoader.GetMod("geoaddons") != null;
+            api.World.Config.SetBool("GAisPresent", gaLoaded);
+
+            //this.Mod.Logger.Event($"[UraniumExpanded] ga loaded = {gaLoaded}. GAisPresent = {gaLoaded}");
 
         }
         public override void StartClientSide(ICoreClientAPI api)

@@ -24,10 +24,6 @@
     },
     "file": "game:itemtypes/resource/nugget.json",
     "side": "Server",
-    "condition": {
-      "when": "EnableUraniumGlass",
-      "isValue": "true"
-    },
     "whenModLoaded": "em"
   }
 ]
