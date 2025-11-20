@@ -15,7 +15,7 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributesByType/workitem-uraniumsteel",
     "value": {
       "requiresAnvilTier": 4

@@ -15,12 +15,11 @@
     "side": "Server"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/attributesByType/workitem-uranium",
     "value": {
       "requiresAnvilTier": 2
     },
-    "file": "game:itemtypes/resource/workitem.json",
-    "side": "Server"
-  }
+    "file": "game:itemtypes/resource/workitem.json"
+    }
 ]

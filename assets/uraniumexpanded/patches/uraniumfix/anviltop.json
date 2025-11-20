@@ -1,9 +1,0 @@
-[
-    {
-        "op": "add",
-        "path": "/ingredient/allowedVariants/-",
-        "value": "steel",
-        "file": "recipes/smithing/anviltop.json",
-        "side": "Server"
-    }
-]

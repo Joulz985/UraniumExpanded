@@ -1,4 +1,11 @@
 [
+    {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/19",
+    "value": "uranium",
+    "file": "game:recipes/smithing/plate.json",
+    "side": "Server"
+  },
   {
     "op": "add",
     "path": "/ingredient/allowedVariants/19",

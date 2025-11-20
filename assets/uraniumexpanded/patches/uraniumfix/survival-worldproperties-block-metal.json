@@ -1,10 +1,9 @@
 [
   {
-    "op": "addmerge",
+    "op": "replace",
     "path": "/variants/21/tier",
     "value": 2,
-    "file": "game:worldproperties/block/metal.json",
-    "side": "Server"
+    "file": "game:worldproperties/block/metal.json"
   },
   {
     "file": "game:worldproperties/block/metal.json",

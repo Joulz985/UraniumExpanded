@@ -23,8 +23,8 @@
   },
   {
     "op": "add",
-    "path": "/attributes/requiresAnvilTierByType",
-    "value": {"ingot-uraniumsteel": 4},
+    "path": "/attributes/requiresAnvilTierByType/ingot-uraniumsteel",
+    "value": 4,
     "file": "game:itemtypes/resource/ingot.json",
     "side": "Server"
   }

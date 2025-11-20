@@ -1,9 +1,0 @@
-[
-    {
-        "op": "add",
-        "path": "/variantgroups/1/states/-",
-        "value": "steel",
-        "file": "blocktypes/metal/anvilpart.json",
-        "side": "Server"
-    }
-]

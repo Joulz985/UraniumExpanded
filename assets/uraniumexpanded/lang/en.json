@@ -1,5 +1,7 @@
 {
     "block-lantern-*-uranium": "Uranium lantern",
+    "block-lantern-*-uraniumsteel": "Uranium steel lantern",
+    "block-lantern-*-ferrousuranium": "Ferrous uranium lantern",
     "game:material-uranium": "Uranium",
     "game:material-uraniumsteel": "Uranium steel",
     "game:material-ferrousuranium": "Ferrous uranium",
@@ -38,6 +40,38 @@
     "game:item-saw-uraniumsteel": "Uranium steel saw",
     "game:item-shears-uraniumsteel": "Uranium steel shears",
     "game:item-metalnailsandstrips-uraniumsteel": "Nail and strips (Uranium steel)",
+
+    "game:item-hoop-ferrousuranium": "Ferrous uranium hoop",
+    "game:item-boss-ferrousuranium": "Ferrous uranium boss",
+    "game:item-axehead-ferrousuranium": "Ferrous uranium axe head",
+    "game:item-shovelhead-ferrousuranium": "Ferrous uranium shovel head",
+    "game:item-pickaxehead-ferrousuranium": "Ferrous uranium pickaxe head",
+    "game:item-bladehead-falx-ferrousuranium": "Ferrous uranium falx blade",
+    "game:item-spearhead-ferrousuranium": "Ferrous uranium spear head", 
+    "game:item-arrowhead-ferrousuranium": "Ferrous uranium arrowhead", 
+    "game:item-hammerhead-ferrousuranium": "Ferrous uranium hammer head",
+    "game:item-scythehead-ferrousuranium": "Ferrous uranium scythe head",
+    "game:item-hoehead-ferrousuranium": "Ferrous uranium hoe head",
+    "game:item-cleaver-ferrousuranium": "Ferrous uranium cleaver",
+    "game:item-sawblade-ferrousuranium": "Ferrous uranium saw blade",
+    "game:item-knifeblade-ferrousuranium": "Ferrous uranium knife blade",
+    "game:item-prospectingpickhead-ferrousuranium": "Ferrous uranium prospecting pick head",
+
+    "game:item-prospectingpick-ferrousuranium": "Ferrous uranium prospecting pick",
+    "game:item-arrow-ferrousuranium": "Ferrous uranium arrow",
+    "game:item-spear-generic-ferrousuranium": "Ferrous uranium spear",
+    "game:item-knife-generic-ferrousuranium": "Ferrous uranium knife",
+    "game:item-pickaxe-ferrousuranium": "Ferrous uranium pickaxe",
+    "game:item-axe-felling-ferrousuranium": "Ferrous uranium axe",
+    "game:item-shovel-ferrousuranium": "Ferrous uranium shovel",
+    "game:item-hoe-ferrousuranium": "Ferrous uranium hoe",
+    "game:item-hammer-ferrousuranium": "Ferrous uranium hammer",
+    "game:item-chisel-ferrousuranium": "Ferrous uranium chisel",
+    "game:item-scythe-ferrousuranium": "Ferrous uranium scythe",
+    "game:item-blade-falx-ferrousuranium": "Ferrous uranium falx",
+    "game:item-saw-ferrousuranium": "Ferrous uranium saw",
+    "game:item-shears-ferrousuranium": "Ferrous uranium shears",
+    "game:item-metalnailsandstrips-ferrousuranium": "Nail and strips (Ferrous uranium)",
 
     "game:item-metalchain-uraniumsteel": "Uranium steel chain",
     "game:item-metallamellae-uraniumsteel": "Uranium steel lamellae",
@@ -82,6 +116,12 @@
     "block-glassslab-uranium-south-free": "Uranium glass slab",
     "block-uranium-glass-block": "Uranium glass block",
     "item-uranium-glass-batch": "Uranium glass batch",
-    "item-crushed-uranium": "Crushed uranium"
+    "item-crushed-uranium": "Crushed uranium",
+
+    "uraniumexpanded:item-ferrousuraniumbloom": "Ferrous uranium bloom",
+    "uraniumexpanded:item-ferrousuraniumblend": "Ferrous uranium blend",
+
+    "game:block-anvilpart-base-steel": "Anvil base (Steel)",
+    "game:block-anvilpart-top-steel": "Anvil top (Steel)"
 
 }

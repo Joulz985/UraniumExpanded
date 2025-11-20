@@ -23,8 +23,8 @@
   },
   {
     "op": "add",
-    "path": "/attributes/requiresAnvilTierByType",
-    "value": {"ingot-ferrousuranium": 3},
+    "path": "/attributes/requiresAnvilTierByType/ingot-ferrousuranium",
+    "value": 3,
     "file": "game:itemtypes/resource/ingot.json",
     "side": "Server"
   }
