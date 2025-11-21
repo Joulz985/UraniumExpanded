@@ -68,7 +68,7 @@
     
     "op": "add",
     "path": "/attackpowerbytype/spear-generic-uraniumsteel",
-    "value": 10,
+    "value": 5.3,
     "file": "game:itemtypes/tool/spear.json",
     "side": "Server",
     "condition": {
@@ -140,7 +140,7 @@
     
     "op": "add",
     "path": "/attributes/damageByType/*-uraniumsteel",
-    "value": 3500,
+    "value": 8.5,
     "file": "game:itemtypes/tool/spear.json",
     "side": "Server",
     "condition": {
@@ -224,7 +224,7 @@
     
     "op": "add",
     "path": "/durabilitybytype/spear-generic-uraniumsteel",
-    "value": 500,
+    "value": 420,
     "file": "game:itemtypes/tool/spear.json",
     "side": "Server",
     "condition": {

@@ -1,7 +1,7 @@
 [
   {
     
-    "op": "add",
+    "op": "addmerge",
     "path": "/variantgroups/1/states/-",
     "value": "uraniumsteel",
     "file": "game:itemtypes/tool/blade.json",
@@ -14,7 +14,7 @@
   },
   {
     
-    "op": "add",
+    "op": "addmerge",
     "path": "/texturesByType/blade-falx-uraniumsteel",
     "value": { 
 			"falxstring": { base: "game:block/transparent" },
@@ -37,7 +37,7 @@
   },
   {
     
-    "op": "add",
+    "op": "addmerge",
     "path": "/tooltierbytype/*-uraniumsteel",
     "value": 5,
     "file": "game:itemtypes/tool/blade.json",
@@ -50,7 +50,7 @@
   },
   {
     
-    "op": "add",
+    "op": "addmerge",
     "path": "/durabilitybytype/blade-falx-uraniumsteel",
     "value": 2525,
     "file": "game:itemtypes/tool/blade.json",
@@ -63,9 +63,9 @@
   },
   {
     
-    "op": "add",
+    "op": "addmerge",
     "path": "/attackpowerbytype/blade-falx-uraniumsteel",
-    "value": 5.5,
+    "value": 5.8,
     "file": "game:itemtypes/tool/blade.json",
     "side": "Server",
     "condition": {
@@ -77,7 +77,7 @@
 
   {
     
-    "op": "add",
+    "op": "addmerge",
     "path": "/variantgroups/1/states/-",
     "value": "ferrousuranium",
     "file": "game:itemtypes/tool/blade.json",
@@ -90,7 +90,7 @@
   },
   {
     
-    "op": "add",
+    "op": "addmerge",
     "path": "/texturesByType/blade-falx-ferrousuranium",
     "value": { 
 			"falxstring": { base: "game:block/transparent" },
@@ -113,7 +113,7 @@
   },
   {
     
-    "op": "add",
+    "op": "addmerge",
     "path": "/tooltierbytype/*-ferrousuranium",
     "value": 4,
     "file": "game:itemtypes/tool/blade.json",
@@ -126,7 +126,7 @@
   },
   {
     
-    "op": "add",
+    "op": "addmerge",
     "path": "/durabilitybytype/blade-falx-ferrousuranium",
     "value": 750,
     "file": "game:itemtypes/tool/blade.json",
@@ -139,8 +139,8 @@
   },
   {
     
-    "op": "add",
-    "path": "/attackpowerbytype/blade-falx-uraniumsteel",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/blade-falx-ferrousuranium",
     "value": 5,
     "file": "game:itemtypes/tool/blade.json",
     "side": "Server",
