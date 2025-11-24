@@ -58,5 +58,408 @@
         "isValue": "true"
 
     }
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/3/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/3/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/4/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/4/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/5/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/5/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/6/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/6/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/7/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/7/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/8/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/8/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/9/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/9/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/10/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/10/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/11/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/11/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/12/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/12/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/13/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/13/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/14/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/14/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/15/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/15/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/16/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/16/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/17/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/17/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/18/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/18/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/19/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/19/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/20/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/20/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/20/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/21/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/21/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/21/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/22/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/22/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/22/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/23/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/23/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/23/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/24/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/24/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/24/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/25/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/25/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/25/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/26/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/26/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/26/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/27/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/27/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/27/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/28/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/28/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/28/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/29/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/29/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/29/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/30/ingredients/B/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/30/ingredients/P/allowedVariants",
+    "value": [ "uraniumsteel"]
+  },
+  {
+    "file": "game:recipes/grid/tool/shield.json",
+    "op": "addmerge",
+    "path": "/30/ingredients/H/allowedVariants",
+    "value": [ "uraniumsteel"]
   }
 ]

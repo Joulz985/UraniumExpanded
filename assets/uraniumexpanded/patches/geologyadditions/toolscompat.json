@@ -145,6 +145,35 @@
       "isValue": "true"
     }
   },
+  {
+    "file": "game:recipes/grid/tool/knife.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/T/allowedVariants",
+    "value": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "gold",
+        "silver",
+        "iron",
+        "meteoriciron",
+        "steel",
+        "chert",
+        "flint",
+        "granite",
+        "andesite",
+        "basalt",
+        "obsidian",
+        "peridotite",
+        "ferrousuranium",
+        "uraniumsteel"
+    ],
+    "condition": {
+      "when": "GAisPresent",
+      "isValue": "true"
+    }
+  },
   { 
     "op": "addmerge",
     "path": "/texturesByType/shovelhead-uraniumsteel",

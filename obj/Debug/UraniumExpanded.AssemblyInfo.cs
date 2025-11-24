@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UraniumExpanded")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e70e0caa60276a5608d83db3326a257cdebfb25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f782be88f0c8be856f9d3e590f907e714a25281")]
 [assembly: System.Reflection.AssemblyProductAttribute("UraniumExpanded")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UraniumExpanded")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

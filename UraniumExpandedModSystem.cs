@@ -48,6 +48,10 @@
 
             //this.Mod.Logger.Event($"[UraniumExpanded] ga loaded = {gaLoaded}. GAisPresent = {gaLoaded}");
 
+
+            var harmony = new Harmony("uraniumexpanded.harmony");
+            harmony.PatchAll();
+
         }
         public override void StartClientSide(ICoreClientAPI api)
         {

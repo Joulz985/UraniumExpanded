@@ -1,0 +1,22 @@
+[
+  {
+    "file": "uraniumexpanded:recipes/grid/ferrousuraniumblend.json",
+    "op": "remove",
+    "path": "/0",
+    "side": "Server",
+    "condition": {
+      "when": "EMisPresent",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "uraniumexpanded:recipes/grid/ferrousuraniumblend.json",
+    "op": "remove",
+    "path": "/1",
+    "side": "Server",
+    "condition": {
+      "when": "EMisPresent",
+      "isValue": "false"
+    }
+  }
+]
