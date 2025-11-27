@@ -12,18 +12,6 @@
     }
   },
   {
-    "op": "add",
-    "path": "/variantgroups/0/states/-",
-    "value": "ferrousuranium",
-    "file": "game:itemtypes/toolhead/spearhead.json",
-    "side": "Server",
-    "condition": {
-        "when": "EnableUraniumTools",
-        "isValue": "true"
-
-    }
-  },
-  {
     "op": "replace",
     "path": "/shapeByType",
     "value": {
@@ -41,7 +29,6 @@
       "spearhead-bismuthbronze": { base: "item/tool/spear/spearhead-metal" },
       "spearhead-blackbronze": { base: "item/tool/spear/spearhead-metal" },
       "spearhead-uraniumsteel": { "base": "item/tool/spear/spearhead-metal" },
-      "spearhead-ferrousuranium": { "base": "item/tool/spear/spearhead-metal" },
       "*": { "base": "item/tool/shovel-stone" }
     },
     "file": "game:itemtypes/toolhead/spearhead.json",
@@ -56,7 +43,7 @@
     "op": "replace",
     "path": "/fpHandTransformByType",
     "value": {
-      "@*-(copper|tinbronze|bismuthbronze|blackbronze|uraniumsteel|ferrousuranium)": {
+      "@*-(copper|tinbronze|bismuthbronze|blackbronze|uraniumsteel)": {
         translation: { x: 0, y: 0, z: 0 },
         rotation: { x: -23, y: 127, z: 81 },
         origin: { x: 0.5, y: 0.06, z: 0.51 },
@@ -82,7 +69,7 @@
     "op": "replace",
     "path": "/guiTransformByType",
     "value": {
-      "@*-(copper|tinbronze|bismuthbronze|blackbronze|uraniumsteel|ferrousuranium)": {
+      "@*-(copper|tinbronze|bismuthbronze|blackbronze|uraniumsteel)": {
         translation: { x: 0, y: 0, z: 0 },
         rotation: { x: 43, y: 28, z: -59 },
         origin: { x: 0.45, y: 0.02, z: 0.5 },
@@ -108,7 +95,7 @@
     "op": "replace",
     "path": "/tpHandTransformByType",
     "value": {
-      "@*-(copper|tinbronze|bismuthbronze|blackbronze|uraniumsteel|ferrousuranium)": {
+      "@*-(copper|tinbronze|bismuthbronze|blackbronze|uraniumsteel)": {
         translation: { x: -0.8, y: -0.1, z: -0.6 },
         rotation: { x: -19, y: -22, z: -22 },
         origin: { x: 0.5, y: 0, z: 0.5 },
@@ -134,7 +121,7 @@
     "op": "replace",
     "path": "/groundTransformByType",
     "value": {
-      "@*-(copper|tinbronze|bismuthbronze|blackbronze|uraniumsteel|ferrousuranium)": {
+      "@*-(copper|tinbronze|bismuthbronze|blackbronze|uraniumsteel)": {
         translation: { x: 0, y: 0, z: 0 },
         rotation: { x: 90, y: -5, z: 0 },
         origin: { x: 0.5, y: 0.05, z: 0.52 },
