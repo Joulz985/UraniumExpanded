@@ -34,8 +34,8 @@
             api.World.Config.SetBool("EnableUraniumGlass", ModConfig.Loaded.EnableUraniumGlass);
             if (api.Side == EnumAppSide.Server)
             {
-                this.Mod.Logger.Event($"EnableUraniumTools set to {ModConfig.Loaded.EnableUraniumTools} on server");
-                this.Mod.Logger.Event($"EnableUraniumGlass set to {ModConfig.Loaded.EnableUraniumGlass} on server");
+                //this.Mod.Logger.Event($"EnableUraniumTools set to {ModConfig.Loaded.EnableUraniumTools} on server");
+                //this.Mod.Logger.Event($"EnableUraniumGlass set to {ModConfig.Loaded.EnableUraniumGlass} on server");
             }
 
             bool emLoaded = api.ModLoader.GetMod("em") != null;
@@ -63,9 +63,9 @@
                 .SetMessageHandler<SyncClientPacket>(packet =>
                 {
                     ModConfig.Loaded.EnableUraniumTools = packet.EnableUraniumTools;
-                    this.Mod.Logger.Event($"Received EnableUraniumTools of {packet.EnableUraniumTools} from server");
+                    //this.Mod.Logger.Event($"Received EnableUraniumTools of {packet.EnableUraniumTools} from server");
                     ModConfig.Loaded.EnableUraniumGlass = packet.EnableUraniumGlass;
-                    this.Mod.Logger.Event($"Received EnableUraniumGlass of {packet.EnableUraniumGlass} from server");
+                    //this.Mod.Logger.Event($"Received EnableUraniumGlass of {packet.EnableUraniumGlass} from server");
                 });
         }
         public override void StartServerSide(ICoreServerAPI sapi)

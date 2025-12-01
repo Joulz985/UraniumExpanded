@@ -244,20 +244,5 @@
       "when": "GAisPresent",
       "isValue": "true"
     }
-  },
-  { 
-    "op": "addmerge",
-    "path": "/texturesByType/spearhead-ferrousuranium",
-    "value": {
-			"material": { base: "block/metal/ingot/{material}" },
-			"string": { base: "block/transparent" },
-			"handle": { base: "block/transparent" }
-    },
-    "file": "game:itemtypes/toolhead/spearhead.json",
-    "side": "Server",
-    "condition": {
-      "when": "GAisPresent",
-      "isValue": "true"
-    }
   }
 ]

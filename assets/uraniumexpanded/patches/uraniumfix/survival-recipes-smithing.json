@@ -289,18 +289,6 @@
     "op": "add",
     "path": "/ingredient/allowedVariants/-",
     "value": "ferrousuranium",
-    "file": "game:recipes/smithing/spear.json",
-    "side": "Server",
-    "condition": {
-        "when": "EnableUraniumTools",
-        "isValue": "true"
-
-    }
-  },
-  {
-    "op": "add",
-    "path": "/ingredient/allowedVariants/-",
-    "value": "ferrousuranium",
     "file": "game:recipes/smithing/scythe.json",
     "side": "Server",
     "condition": {
@@ -327,6 +315,30 @@
     "path": "/ingredient/allowedVariants/-",
     "value": "ferrousuranium",
     "file": "game:recipes/smithing/blade-falx.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "ferrousuranium",
+    "file": "game:recipes/smithing/prospectingpick.json",
+    "side": "Server",
+    "condition": {
+        "when": "EnableUraniumTools",
+        "isValue": "true"
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/ingredient/allowedVariants/-",
+    "value": "uraniumsteel",
+    "file": "game:recipes/smithing/prospectingpick.json",
     "side": "Server",
     "condition": {
         "when": "EnableUraniumTools",
